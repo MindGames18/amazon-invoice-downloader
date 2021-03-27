@@ -1,16 +1,20 @@
-# amazon-invoice-downloader
-Simple py script to help download invoice from your past orders in amazon,
+# Amazon Invoice Downloader - Python
 
-# Dependency
-Selenium,
-Chrome Driver (included v89),
+Script to download invoices from Amazon.in
 
-# Configurations (config.py)
-username : Amazon username (usually email id),
-password : Amazon password,
-pages : Number of pages from order hstory to download invoices,
+## Dependencies:
 
-# ReadME 
-Defaults all downloads to your downloads folders ,
-invoices are named invoice.pdf and increments (invoice(2).pdf and so on...),
-Sleeps included to prevent too many requests,
+[Selenium]()  
+[Chrome Driver v89]()
+
+## Configurations [config.py](config.py):
+
+`username`: Amazon username (usually email id)  
+`password`: Amazon password  
+`pages`: Number of pages from order hstory to download invoices
+
+## Default Behaviour:
+
+- Defaults all downloads to your `Downloads` folders
+- invoices are named `invoice.pdf` and increments (`invoice(2).pdf` and so on...)
+- Sleeps included to prevent too many requests
