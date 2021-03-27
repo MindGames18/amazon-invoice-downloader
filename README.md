@@ -9,9 +9,9 @@ Script to download invoices from Amazon.in
 
 ## Configurations [config.py](config.py):
 
-`username`: Amazon username (usually email id)  
-`password`: Amazon password  
-`pages`: Number of pages from order hstory to download invoices
+`username`: Amazon.in username (usually Email ID)  
+`password`: Amazon.in password  
+`pages`: Number of pages from order hstory to download invoices from
 
 ## Default Behaviour:
 
