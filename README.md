@@ -1,6 +1,6 @@
 # Amazon Invoice Downloader - Python
 
-Script to download invoices from Amazon.in
+A simple script to download invoices from Amazon.in
 
 ## Dependencies:
 
@@ -9,7 +9,7 @@ Script to download invoices from Amazon.in
 
 ## Configurations [config.py](config.py):
 
-`username`: Amazon.in username (usually Email ID)  
+`username`: Amazon.in username (usually your Email ID)  
 `password`: Amazon.in password  
 `pages`: Number of pages from order hstory to download invoices from
 
